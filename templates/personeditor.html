@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4" align="center">
+        <h1>{{title}}</h1>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4" align="center">
+        <form name="personForm" novalidate>
+            <input type="text" name="name" ng-model="person.name" placeholder="Eg: Ganesha" required/>
+            <br/>
+            <input type="text" name="area" ng-model="person.area" placeholder="Eg: Jayanagar" required/>
+            <br/>
+            <input type="submit" ng-click="createPerson()" ng-disabled="personForm.name.$dirty && personForm.name.$invalid && personForm.name.$error.required || personForm.area.$dirty && personForm.area.$invalid" />
+        </form>
+    </div>
+    <div class="col-md-4">
+    </div>
+</div>

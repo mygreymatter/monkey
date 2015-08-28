@@ -1,0 +1,21 @@
+.info-div {
+    background-color: cornflowerblue;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: aliceblue;
+    margin-top: 5px;
+}
+.info-div:hover {
+    background-color: aliceblue;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+input[type='submit'] {
+    color: black;
+}
+input[type='text'] {
+    color: black;
+}
+.red {
+    background: red;
+}
