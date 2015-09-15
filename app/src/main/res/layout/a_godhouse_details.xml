@@ -1,0 +1,185 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mayo.godko.ActGodHouseDetails">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+        <ImageView android:id="@+id/image"
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:scaleType="centerCrop"
+                   android:src="@drawable/monkey_1"
+                   android:transitionName="@string/godhouse_image"/>
+
+        <com.mayo.godko.RobotoView android:id="@+id/name"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/image"
+                                    android:background="@color/primaryColor"
+                                    android:gravity="center"
+                                    android:paddingBottom="5dp"
+                                    android:paddingTop="5dp"
+                                    android:text="Sweet Home"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp"/>
+
+
+        <LinearLayout android:id="@+id/godLayout"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/name"
+                      android:background="@color/primaryColor" android:orientation="vertical">
+
+            <com.mayo.godko.RobotoView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/primaryColorDark"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Residing Deity"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"/>
+
+            <com.mayo.godko.RobotoView android:id="@+id/god"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="5dp"
+                                        android:background="@color/primaryColor"
+                                        android:gravity="center"
+                                        android:paddingBottom="5dp"
+                                        android:paddingTop="5dp"
+                                        android:text="Lord Ganesh"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="15sp"/>
+        </LinearLayout>
+
+
+        <RelativeLayout android:id="@+id/timingsLayout"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/godLayout"
+                      android:background="@color/primaryColor" android:orientation="vertical">
+
+
+            <com.mayo.godko.RobotoView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryColorDark"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Timings"
+                android:id="@+id/timings"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"/>
+
+            <com.mayo.godko.RobotoView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/morning"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/timings"
+                android:layout_marginTop="5dp"
+                android:text="Morning: 6:00 AM To 9:00 AM"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"/>
+
+            <com.mayo.godko.RobotoView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/morning"
+                android:id="@+id/afternoon"
+                android:layout_alignLeft="@+id/morning"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Afternoon: 11:00 AM To 1:00 PM"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"/>
+
+            <com.mayo.godko.RobotoView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/afternoon"
+                android:id="@+id/evening"
+                android:layout_alignLeft="@+id/afternoon"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Evening: 5:00 PM To 7:00 PM"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+
+
+        <LinearLayout android:id="@+id/locationLayout"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/timingsLayout"
+                      android:background="@color/primaryColor" android:orientation="vertical">
+            <com.mayo.godko.RobotoView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:background="@color/primaryColorDark"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Address"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"/>
+
+            <com.mayo.godko.RobotoView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="31st Cross, 7th Main, 4th Block, Jayanagar."
+                android:textColor="@android:color/white"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/famousLayout"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/locationLayout"
+                      android:background="@color/primaryColor" android:orientation="vertical">
+            <com.mayo.godko.RobotoView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:background="@color/primaryColorDark"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Famous"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"/>
+
+            <com.mayo.godko.RobotoView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Solving day to day problems."
+                android:textColor="@android:color/white"
+                android:textSize="15sp"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"
+            android:id="@+id/back"
+            android:onClick="onbackPressed"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>
+

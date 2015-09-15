@@ -1,0 +1,4 @@
+<resources>
+    <!-- Match 56dp default ActionBar height on portrait orientation -->
+    <dimen name="nav_drawer_margin_offset">-16dp</dimen>
+</resources>

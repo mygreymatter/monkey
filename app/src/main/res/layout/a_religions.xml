@@ -1,0 +1,48 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/primaryColor"
+            tools:context="com.mayo.godko.ActReligions">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/hinduism"
+                                                      android:layout_width="@dimen/width_height_religion"
+                                                      android:layout_height="@dimen/width_height_religion"
+                                                      android:layout_centerHorizontal="true"
+                                                      android:layout_marginTop="20dp"
+                                                      android:onClick="showHinduism"
+                                                      android:src="@drawable/ic_hinduism"/>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/islam"
+                                                      android:layout_width="@dimen/width_height_religion"
+                                                      android:layout_height="@dimen/width_height_religion"
+                                                      android:layout_below="@+id/hinduism"
+                                                      android:layout_centerHorizontal="true"
+                                                      android:layout_marginTop="@dimen/top_margin_icons"
+                                                      android:onClick="showIslam"
+                                                      android:src="@drawable/ic_islam"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/jainism"
+                                                      android:layout_width="@dimen/width_height_religion"
+                                                      android:layout_height="@dimen/width_height_religion"
+                                                      android:layout_below="@+id/islam"
+                                                      android:layout_centerHorizontal="true"
+                                                      android:onClick="showJainism"
+                                                      android:layout_marginTop="@dimen/top_margin_icons"
+                                                      android:src="@drawable/ic_jainism"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/sikhism"
+                                                      android:layout_width="@dimen/width_height_religion"
+                                                      android:layout_height="@dimen/width_height_religion"
+                                                      android:layout_below="@+id/jainism"
+                                                      android:layout_centerHorizontal="true"
+                                                      android:onClick="showSikhism"
+                                                      android:layout_marginTop="@dimen/top_margin_icons"
+                                                      android:src="@drawable/ic_sikhism"/>
+
+    </RelativeLayout>
+</ScrollView>

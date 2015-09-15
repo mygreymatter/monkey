@@ -1,0 +1,83 @@
+{
+  "god_houses": [
+    {
+      "name": "Siddi Vinayaka Temple",
+      "god_of_house": "Lord Ganesh"
+    },
+    {
+      "name": "Mahashivalayam",
+      "god_of_house": "Lord Shiva"
+    },
+    {
+      "name": "Sree Lakshmi Venkateswara Temple",
+      "god_of_house": "Lord Venkateswara"
+    },
+    {
+      "name": "Hanuman Mandir",
+      "god_of_house": "Lord Hanuman"
+    }
+  ],
+  "priests": [
+    {
+      "name": "Bharagava Ramana Rayaprolu",
+      "services": "Wedding and Baby naming.",
+      "contact": "9848033224"
+    },
+    {
+      "name": "Sundhar Sharma",
+      "services": "House Warming and Baby naming.",
+      "contact": "9111133334"
+    },
+    {
+      "name": "Narayana Archarya",
+      "services": "Funeral rites and the related.",
+      "contact": "9233325554"
+    },
+    {
+      "name": "Pandit Deepak Purbia",
+      "services": "Aswamedha yaagam and others.",
+      "contact": "9843373224"
+    },
+    {
+      "name": "Sri Kunal Chatterji",
+      "services": "Ayusha Homam and Mrithyunjaya Homam.",
+      "contact": "9856763224"
+    },
+    {
+      "name": "Pandit Manjunath Rao",
+      "services": "Vedic classes and religious speeches.",
+      "contact": "9848022114"
+    },
+    {
+      "name": "Pandit Sanjeev Kumar",
+      "services": "Threading.",
+      "contact": "9990033224"
+    }
+  ],
+  "shopping": [
+    {
+      "name": "Jasmine tied",
+      "measurement": "1 mtr",
+      "price": 5,
+      "minimum":1
+    },
+    {
+      "name": "Gou Ganga",
+      "measurement": "50 ml",
+      "price": 100
+    },
+    {
+      "name": "Ghee Batti",
+      "measurement": "20 pieces",
+      "price": 50
+    },{
+      "name": "Deepam Oil",
+      "measurement": "1 ltr",
+      "price": 200
+    },{
+      "name": "Ganga Jal",
+      "measurement": "1 litre",
+      "price": 200
+    }
+  ]
+}
